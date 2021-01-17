@@ -1,0 +1,5 @@
+# downloading mosquitto image
+docker pull mjenz/rpi-mosquitto
+
+# running mosquitto as a service
+docker run -p 11883:1883 --detach --restart unless-stopped --name mosquitto mjenz/rpi-mosquitto

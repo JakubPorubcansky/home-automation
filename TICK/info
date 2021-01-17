@@ -1,0 +1,2 @@
+# running TICK stack with docker-compose
+docker-compose start influxdb telegraf chronograf kapacitor
